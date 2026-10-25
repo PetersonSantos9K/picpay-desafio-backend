@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 import java.util.UUID;
 
 
-@Entity()
+@Entity
 @Table(name = "tb_user")
 @EqualsAndHashCode(of = "id")
 @Getter

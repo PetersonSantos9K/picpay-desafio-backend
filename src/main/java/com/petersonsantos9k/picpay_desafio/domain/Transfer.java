@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-@Entity()
+@Entity
 @Table(name = "transfer")
 @NoArgsConstructor
 @EqualsAndHashCode(of = "id")
