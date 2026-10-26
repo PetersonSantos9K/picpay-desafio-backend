@@ -38,6 +38,7 @@ public class User {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false, length = 20)
+    @Setter
     private UserType userType;
 
     public User(String fullName, String taxId, String email, String password, UserType userType) {

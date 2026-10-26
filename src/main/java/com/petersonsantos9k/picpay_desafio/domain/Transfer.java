@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Entity
-@Table(name = "transfer")
+@Table(name = "tb_transfer")
 @NoArgsConstructor
 @EqualsAndHashCode(of = "id")
 @Getter
